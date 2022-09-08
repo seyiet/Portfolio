@@ -7,6 +7,11 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 :root{
     --bg-color: #000000;
     --text-color: #fff;
@@ -324,12 +329,16 @@ footer i{
     border-radius: 0.5rem;
 }
     /* Media Query */
+
 @media (max-width:1325px){
     header{
         padding: 16px 3%;
     }
     header .sticky{
         padding: 8px 3%;
+    }
+     section{
+        padding: 130px 3% 60px;
     }
 }
 @media (max-width:970px){
