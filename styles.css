@@ -7,8 +7,10 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
+html{
+    scroll-behavior: smooth;
 
-
+}
 :root{
     --bg-color: #000000;
     --text-color: #fff;
@@ -334,7 +336,7 @@ footer i{
     header .sticky{
         padding: 8px 3%;
     }
-     section{
+    section{
         padding: 130px 3% 60px;
     }
 }
